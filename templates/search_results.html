@@ -1,0 +1,15 @@
+{% extends 'base.html' %}  <!-- Ana şablonunu kullanıyorsan ekle -->
+
+{% block body %}
+    <h2>Arama Sonuçları: "{{ query }}"</h2>
+
+    {% if results %}
+        <ul>
+            {% for post in results %}
+                <li><a href="{{ post.get_absolute_url }}" >{{ post.title }}</a></li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>Sonuç bulunamadı.</p>
+    {% endif %}
+{% endblock %}
