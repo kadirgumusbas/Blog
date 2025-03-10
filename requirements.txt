@@ -1,0 +1,15 @@
+asgiref==3.8.1
+crispy-bootstrap3==2024.1
+Django==5.1.7
+django-bootstrap3==25.1
+django-ckeditor==6.7.2
+django-cleanup==9.0.0
+django-crispy-forms==2.3
+django-js-asset==3.1.2
+django-recaptcha==3.0.0
+pillow==11.1.0
+pytz==2025.1
+setuptools==75.9.1
+sqlparse==0.5.3
+tzdata==2025.1
+wheel==0.45.1
